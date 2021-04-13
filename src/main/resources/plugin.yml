@@ -7,7 +7,11 @@ commands:
   message:
     aliases:
       - msg
-
   reply:
     aliases:
       - r
+
+permissions:
+  simplemessage.*:
+  simplemessage.message:
+  simplemessage.reply:
