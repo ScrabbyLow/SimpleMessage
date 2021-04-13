@@ -1,0 +1,13 @@
+name: SimpleMessage
+version: ${project.version}
+main: de.zagro.simplemessage.Main
+authors: [ Zagro ]
+
+commands:
+  message:
+    aliases:
+      - msg
+
+  reply:
+    aliases:
+      - r
