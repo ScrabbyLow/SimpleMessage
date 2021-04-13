@@ -23,7 +23,7 @@ public class ReplyCmd implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player messager = (Player) sender;
-            if (messager.hasPermission("simplemessage.message")) {
+            if (messager.hasPermission("simplemessage.reply")) {
                 if (args.length < 1) {
                     messager.sendMessage(ChatColor.RED + "Usage: /r <message>");
                 } else {
