@@ -1,7 +1,7 @@
 name: SimpleMessage
-version: ${project.version}
+version: 1.1
 main: de.zagro.simplemessage.Main
-authors: [ Zagro ]
+author: Zagro
 
 commands:
   message:
@@ -13,5 +13,8 @@ commands:
 
 permissions:
   simplemessage.*:
+    description: Allows you to have all permissions from this plugin
   simplemessage.message:
+    description: Allows you to use the /msg command
   simplemessage.reply:
+    description: Allsows you to use the /r command
